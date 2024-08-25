@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <hr />
+    <h2 style="color :cadetblue">Hello World I'm Le Tan</h2>
+    <hr/>
+    <ul>
+        @for (int i = 0; i <= 15; i++)
+        {
+            <li>Item @i</li>
+        }
+    </ul>
+    <hr/>
+    @{
+        int h = DateTime.Now.Hour;
+    }
+    @if (h < 12)
+    {
+        <p>Good morning! (Bây giờ là @h giờ sáng) </p>
+    }
+    else
+    {
+        <p>Good afternoon! (Bây giờ là @h giờ chiều) </p>
+    }
+
+</div>

@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <hr/>
+    <h1 style="color:aquamarine">Bảng cửu chương</h1>
+    <ul>
+        @for (int i = 2; i <= 9; i++)
+        {
+            <ul>
+                @for (int j = 1; j <= 10; j++)
+                {
+                    <li>@i x @j = @(i * j)</li>
+                }
+            </ul>
+            <hr />
+        }
+        <p style="color:darkblue">Hoàng Lê Tấn</p>
+    </ul>
+</div>

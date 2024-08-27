@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Lập trình Web\\BaiTap01\\BaiTap01\\BaiTap01.csproj": {}
+    "D:\\Lập trình Web\\Github\\asp_web\\BaiTap01\\BaiTap01\\BaiTap01.csproj": {}
   },
   "projects": {
-    "D:\\Lập trình Web\\BaiTap01\\BaiTap01\\BaiTap01.csproj": {
+    "D:\\Lập trình Web\\Github\\asp_web\\BaiTap01\\BaiTap01\\BaiTap01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lập trình Web\\BaiTap01\\BaiTap01\\BaiTap01.csproj",
+        "projectUniqueName": "D:\\Lập trình Web\\Github\\asp_web\\BaiTap01\\BaiTap01\\BaiTap01.csproj",
         "projectName": "BaiTap01",
-        "projectPath": "D:\\Lập trình Web\\BaiTap01\\BaiTap01\\BaiTap01.csproj",
+        "projectPath": "D:\\Lập trình Web\\Github\\asp_web\\BaiTap01\\BaiTap01\\BaiTap01.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Lập trình Web\\BaiTap01\\BaiTap01\\obj\\",
+        "outputPath": "D:\\Lập trình Web\\Github\\asp_web\\BaiTap01\\BaiTap01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

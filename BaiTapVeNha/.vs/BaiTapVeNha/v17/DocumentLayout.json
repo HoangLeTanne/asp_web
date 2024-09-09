@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{01E6F85E-816F-4964-A032-03F8EC2F580D}|BaiTapVeNha\\BaiTapVeNha.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitapvenha\\baitapvenha\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{01E6F85E-816F-4964-A032-03F8EC2F580D}|BaiTapVeNha\\BaiTapVeNha.csproj|solutionrelative:baitapvenha\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01E6F85E-816F-4964-A032-03F8EC2F580D}|BaiTapVeNha\\BaiTapVeNha.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitapvenha\\baitapvenha\\views\\theloai\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{01E6F85E-816F-4964-A032-03F8EC2F580D}|BaiTapVeNha\\BaiTapVeNha.csproj|solutionrelative:baitapvenha\\views\\theloai\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -22,21 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha\\BaiTapVeNha\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BaiTapVeNha\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha\\BaiTapVeNha\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BaiTapVeNha\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:38:07.352Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -47,7 +38,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha\\BaiTapVeNha\\.gitignore",
+              "RelativeDocumentMoniker": "BaiTapVeNha\\.gitignore",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha\\BaiTapVeNha\\.gitignore",
+              "RelativeToolTip": "BaiTapVeNha\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-09T03:51:37.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha\\BaiTapVeNha\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BaiTapVeNha\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha\\BaiTapVeNha\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BaiTapVeNha\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:38:07.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha\\BaiTapVeNha\\Program.cs",
               "RelativeDocumentMoniker": "BaiTapVeNha\\Program.cs",
@@ -55,12 +71,11 @@
               "RelativeToolTip": "BaiTapVeNha\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:18:34.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:18:34.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha\\BaiTapVeNha\\Views\\TheLoai\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTapVeNha\\Views\\TheLoai\\Index.cshtml",

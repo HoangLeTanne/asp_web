@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTap04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D803C2A-A03A-4B67-B916-40068E8B9814}|BaiTap04\\BaiTap04.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitap04\\baitap04\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D803C2A-A03A-4B67-B916-40068E8B9814}|BaiTap04\\BaiTap04.csproj|solutionrelative:baitap04\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D803C2A-A03A-4B67-B916-40068E8B9814}|BaiTap04\\BaiTap04.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitap04\\baitap04\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{4D803C2A-A03A-4B67-B916-40068E8B9814}|BaiTap04\\BaiTap04.csproj|solutionrelative:baitap04\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D803C2A-A03A-4B67-B916-40068E8B9814}|BaiTap04\\BaiTap04.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitap04\\baitap04\\.gitgnore||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4D803C2A-A03A-4B67-B916-40068E8B9814}|BaiTap04\\BaiTap04.csproj|solutionrelative:baitap04\\.gitgnore||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{4D803C2A-A03A-4B67-B916-40068E8B9814}|BaiTap04\\BaiTap04.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitap04\\baitap04\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D803C2A-A03A-4B67-B916-40068E8B9814}|BaiTap04\\BaiTap04.csproj|solutionrelative:baitap04\\controllers\\theloaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D803C2A-A03A-4B67-B916-40068E8B9814}|BaiTap04\\BaiTap04.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitap04\\baitap04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,19 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".gitgnore",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTap04\\BaiTap04\\.gitgnore",
-              "RelativeDocumentMoniker": "BaiTap04\\.gitgnore",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTap04\\BaiTap04\\.gitgnore",
-              "RelativeToolTip": "BaiTap04\\.gitgnore",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTap04\\BaiTap04\\.gitignore",
+              "RelativeDocumentMoniker": "BaiTap04\\.gitignore",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTap04\\BaiTap04\\.gitignore",
+              "RelativeToolTip": "BaiTap04\\.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-06T06:55:46.615Z"
+              "WhenOpened": "2024-09-09T03:50:13.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TheLoaiController.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTap04\\BaiTap04\\Controllers\\TheLoaiController.cs",
               "RelativeDocumentMoniker": "BaiTap04\\Controllers\\TheLoaiController.cs",

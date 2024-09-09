@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<header>
+    <h2>GIỚI THIỆU</h2>
+</header>
+
+
+<section>
+    <nav>
+        <ul>
+            <li>Họ Tên: @ViewBag.HoTen</li>
+            <li>MSSV: @ViewBag.MSSV</li>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>Hoang Le Tan</h1>
+        <p>------</p>
+        <img src="~/image/avatar.jpg" style="width:100px;" />
+    </article>
+</section>
+
+<footer>
+    <p>Copyright &copy; @ViewBag.HoTen - @ViewBag.Nam</p>
+</footer>

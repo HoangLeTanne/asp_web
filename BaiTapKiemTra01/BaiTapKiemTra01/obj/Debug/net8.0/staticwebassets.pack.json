@@ -1,0 +1,397 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaiTapKiemTra01.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BaiTapKiemTra01.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\fonts\\SnellBT-Bold.otf",
+      "PackagePath": "staticwebassets\\fonts\\SnellBT-Bold.otf"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\fonts\\SnellBT-Regular.otf",
+      "PackagePath": "staticwebassets\\fonts\\SnellBT-Regular.otf"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\images\\about-img.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\chocolate1.png",
+      "PackagePath": "staticwebassets\\images\\chocolate1.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\chocolate2.png",
+      "PackagePath": "staticwebassets\\images\\chocolate2.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\chocolate3.png",
+      "PackagePath": "staticwebassets\\images\\chocolate3.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\client-bg.png",
+      "PackagePath": "staticwebassets\\images\\client-bg.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\client-chocolate.png",
+      "PackagePath": "staticwebassets\\images\\client-chocolate.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\client-img.jpg",
+      "PackagePath": "staticwebassets\\images\\client-img.jpg"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\color-arrow.png",
+      "PackagePath": "staticwebassets\\images\\color-arrow.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\insta-img.png",
+      "PackagePath": "staticwebassets\\images\\insta-img.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\offer-img.png",
+      "PackagePath": "staticwebassets\\images\\offer-img.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\slider-bg1.png",
+      "PackagePath": "staticwebassets\\images\\slider-bg1.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\slider-bg2.png",
+      "PackagePath": "staticwebassets\\images\\slider-bg2.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\slider-img.png",
+      "PackagePath": "staticwebassets\\images\\slider-img.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\images\\white-arrow.png",
+      "PackagePath": "staticwebassets\\images\\white-arrow.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\img\\anhchup\\Screenshot (228).png",
+      "PackagePath": "staticwebassets\\img\\anhchup\\Screenshot (228).png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\img\\anhchup\\Screenshot 2024-09-10 143923.png",
+      "PackagePath": "staticwebassets\\img\\anhchup\\Screenshot 2024-09-10 143923.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BaiTapKiemTra01.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BaiTapKiemTra01.props",
+      "PackagePath": "build\\BaiTapKiemTra01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BaiTapKiemTra01.props",
+      "PackagePath": "buildMultiTargeting\\BaiTapKiemTra01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BaiTapKiemTra01.props",
+      "PackagePath": "buildTransitive\\BaiTapKiemTra01.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

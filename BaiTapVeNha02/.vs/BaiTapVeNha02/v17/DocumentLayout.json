@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FBFD5DAC-2643-40E1-9812-A116F99E161C}|BaiTapVeNha02\\BaiTapVeNha02.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitapvenha02\\baitapvenha02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBFD5DAC-2643-40E1-9812-A116F99E161C}|BaiTapVeNha02\\BaiTapVeNha02.csproj|solutionrelative:baitapvenha02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FBFD5DAC-2643-40E1-9812-A116F99E161C}|BaiTapVeNha02\\BaiTapVeNha02.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitapvenha02\\baitapvenha02\\views\\tuan02\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FBFD5DAC-2643-40E1-9812-A116F99E161C}|BaiTapVeNha02\\BaiTapVeNha02.csproj|solutionrelative:baitapvenha02\\views\\tuan02\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FBFD5DAC-2643-40E1-9812-A116F99E161C}|BaiTapVeNha02\\BaiTapVeNha02.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitapvenha02\\baitapvenha02\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{FBFD5DAC-2643-40E1-9812-A116F99E161C}|BaiTapVeNha02\\BaiTapVeNha02.csproj|solutionrelative:baitapvenha02\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBFD5DAC-2643-40E1-9812-A116F99E161C}|BaiTapVeNha02\\BaiTapVeNha02.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitapvenha02\\baitapvenha02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBFD5DAC-2643-40E1-9812-A116F99E161C}|BaiTapVeNha02\\BaiTapVeNha02.csproj|solutionrelative:baitapvenha02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha02\\BaiTapVeNha02\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BaiTapVeNha02\\Views\\Shared\\_Layout.cshtml",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "site.css",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha02\\BaiTapVeNha02\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "BaiTapVeNha02\\wwwroot\\css\\site.css",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha02\\BaiTapVeNha02\\Views\\Tuan02\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTapVeNha02\\Views\\Tuan02\\Index.cshtml",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Tuan02Controller.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha02\\BaiTapVeNha02\\Controllers\\Tuan02Controller.cs",
               "RelativeDocumentMoniker": "BaiTapVeNha02\\Controllers\\Tuan02Controller.cs",
@@ -91,15 +91,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha02\\BaiTapVeNha02\\Program.cs",
               "RelativeDocumentMoniker": "BaiTapVeNha02\\Program.cs",
               "ToolTip": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapVeNha02\\BaiTapVeNha02\\Program.cs",
               "RelativeToolTip": "BaiTapVeNha02\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T03:05:35.624Z"
+              "WhenOpened": "2024-09-09T03:05:35.624Z",
+              "EditorCaption": ""
             }
           ]
         }

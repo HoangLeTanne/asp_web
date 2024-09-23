@@ -1,0 +1,10 @@
+D:\Lập trình Web\Github\asp_web\BaiTap07\obj\Debug\net8.0\BaiTap07.csproj.AssemblyReference.cache
+D:\Lập trình Web\Github\asp_web\BaiTap07\obj\Debug\net8.0\BaiTap07.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lập trình Web\Github\asp_web\BaiTap07\obj\Debug\net8.0\BaiTap07.AssemblyInfoInputs.cache
+D:\Lập trình Web\Github\asp_web\BaiTap07\obj\Debug\net8.0\BaiTap07.AssemblyInfo.cs
+D:\Lập trình Web\Github\asp_web\BaiTap07\obj\Debug\net8.0\BaiTap07.csproj.CoreCompileInputs.cache
+D:\Lập trình Web\Github\asp_web\BaiTap07\obj\Debug\net8.0\BaiTap07.MvcApplicationPartsAssemblyInfo.cs
+D:\Lập trình Web\Github\asp_web\BaiTap07\obj\Debug\net8.0\BaiTap07.MvcApplicationPartsAssemblyInfo.cache
+D:\Lập trình Web\Github\asp_web\BaiTap07\obj\Debug\net8.0\BaiTap07.RazorAssemblyInfo.cache
+D:\Lập trình Web\Github\asp_web\BaiTap07\obj\Debug\net8.0\BaiTap07.RazorAssemblyInfo.cs
+D:\Lập trình Web\Github\asp_web\BaiTap07\obj\Debug\net8.0\BaiTap07.sourcelink.json

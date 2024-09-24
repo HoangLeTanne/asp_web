@@ -1,0 +1,41 @@
+﻿
+@model IEnumerable<SanPham>
+<div class="container">
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Tên sản phẩm</th>
+				<th>Mô tả</th>
+				<th>Giá</th>
+				<th>Hình ảnh</th>
+				<th>Thể loại</th>
+				<th>
+					Chức năng
+				</th>
+
+			</tr>
+
+		</thead>
+		<tbody>
+			@foreach(var item in Model)
+			{
+				<tr>
+					<td>@item.Name</td>
+					<td>@item.Description</td>
+					<td>@item.price</td>
+					<td><img src="@item.ImageUrl" width="50%"/></td>
+					<td>@item.TheLoai.Name</td>
+					<td>
+						<a asp-action="Upsert" asp-route-id="@item.Id">Edit</a> |
+						<a href="#">Detail</a> |
+						<a href="#">Delete</a>
+ 					</td>
+				</tr>
+			}
+		</tbody>
+
+	</tablec>
+	<a asp-controller="SanPham" asp-action="Upsert" class="btn btn-primary">Thêm mới</a>
+
+</div>
+

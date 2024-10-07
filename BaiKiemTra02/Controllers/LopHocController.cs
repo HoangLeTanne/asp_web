@@ -68,8 +68,8 @@ namespace BaiKiemTra02.Controllers
             {
                 return NotFound();
             }
-            var theloai = _db.LopHoc.Find(id);
-            return View(theloai);
+            var lophoc = _db.LopHoc.Find(id);
+            return View(lophoc);
         }
         [HttpPost]
         public IActionResult DeleteConfirm(int id)

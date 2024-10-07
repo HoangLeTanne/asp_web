@@ -1,4 +1,8 @@
-﻿@model TheLoai
+﻿@{
+    ViewData["Title"] = "Create";
+}
+
+@model TheLoai
 <div class="container">
     <h3>Chỉnh sửa thể loại</h3>
     <div asp-validation-summary="All" class="text-danger"></div>
@@ -15,6 +19,7 @@
         </div>
         <button type="submit" class="btn btn-primary">Cập nhật</button>
     </form>
+
 </div>
 
 @section Scripts {

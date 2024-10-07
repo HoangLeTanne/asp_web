@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HptkUY5aZpRVXLNvfnP4ly2ozhhzZy5sFdz9pCkO06A=",
+  "Hash": "g4KQAhcwIDKJBJ2FllwSdK73gx0b7qmoiSXkT5EggJI=",
   "Source": "BaiKiemTra02",
   "BasePath": "_content/BaiKiemTra02",
   "Mode": "Default",
@@ -1214,6 +1214,25 @@
       "OriginalItemSpec": "wwwroot\\anhchup\\create.png"
     },
     {
+      "Identity": "D:\\Lập trình Web\\Github\\asp_web\\BaiKiemTra02\\wwwroot\\anhchup\\database.png",
+      "SourceId": "BaiKiemTra02",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Lập trình Web\\Github\\asp_web\\BaiKiemTra02\\wwwroot\\",
+      "BasePath": "_content/BaiKiemTra02",
+      "RelativePath": "anhchup/database.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\anhchup\\database.png"
+    },
+    {
       "Identity": "D:\\Lập trình Web\\Github\\asp_web\\BaiKiemTra02\\wwwroot\\anhchup\\delete.png",
       "SourceId": "BaiKiemTra02",
       "SourceType": "Discovered",
@@ -1231,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\anhchup\\delete.png"
+    },
+    {
+      "Identity": "D:\\Lập trình Web\\Github\\asp_web\\BaiKiemTra02\\wwwroot\\anhchup\\detail.png",
+      "SourceId": "BaiKiemTra02",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Lập trình Web\\Github\\asp_web\\BaiKiemTra02\\wwwroot\\",
+      "BasePath": "_content/BaiKiemTra02",
+      "RelativePath": "anhchup/detail.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\anhchup\\detail.png"
     },
     {
       "Identity": "D:\\Lập trình Web\\Github\\asp_web\\BaiKiemTra02\\wwwroot\\anhchup\\edit.png",

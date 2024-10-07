@@ -1,13 +1,12 @@
-﻿
-@model TheLoai
+﻿@model TheLoai
 <div class="container">
     <h3>Xóa thể loại</h3>
     <div asp-validation-summary="All" class="text-danger"></div>
     <form method="post" asp-action="DeleteConfirm">
-        <input type="hidden" asp-for="Id"/>
+        <input type="hidden" asp-for="Id" />
         <div class="form-group">
             <label asp-for="Name">Tên thể loại</label>
-            <input asp-for="Name" type="text" class="form-control" readonly/>
+            <input asp-for="Name" type="text" class="form-control" readonly />
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
         <div class="form-group">
@@ -18,6 +17,7 @@
         <button type="submit" class="btn btn-primary">Xóa</button>
         <a asp-action="Index" class="btn btn-secondary">Hủy</a>
     </form>
+
 </div>
 
 @section Scripts {
@@ -25,4 +25,3 @@
         <partial name="_ValidationScriptsPartial" />
     }
 }
-

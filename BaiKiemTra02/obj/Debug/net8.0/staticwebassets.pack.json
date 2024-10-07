@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\anhchup\\create.png"
     },
     {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiKiemTra02\\wwwroot\\anhchup\\database.png",
+      "PackagePath": "staticwebassets\\anhchup\\database.png"
+    },
+    {
       "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiKiemTra02\\wwwroot\\anhchup\\delete.png",
       "PackagePath": "staticwebassets\\anhchup\\delete.png"
+    },
+    {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiKiemTra02\\wwwroot\\anhchup\\detail.png",
+      "PackagePath": "staticwebassets\\anhchup\\detail.png"
     },
     {
       "Id": "D:\\Lập trình Web\\Github\\asp_web\\BaiKiemTra02\\wwwroot\\anhchup\\edit.png",

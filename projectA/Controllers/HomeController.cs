@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using projectA.Data;
 using projectA.Models;
@@ -35,5 +36,16 @@ namespace projectA.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-    }
+		[HttpGet]
+		public IActionResult Details(int id)
+		{
+			SanPham sanpham = new SanPham();
+			
+			sanpham = _db.SanPham.Include(sp=>sp.TheLoai).FirstOrDefault(sp => sp.Id == id);
+
+			return View(sanpham);
+			
+
+		}
+	}
 }

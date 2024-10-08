@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Lập trình Web\\Github\\asp_web\\projectA\\wwwroot\\img\\phone.png",
+      "PackagePath": "staticwebassets\\img\\phone.png"
+    },
+    {
       "Id": "D:\\Lập trình Web\\Github\\asp_web\\projectA\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

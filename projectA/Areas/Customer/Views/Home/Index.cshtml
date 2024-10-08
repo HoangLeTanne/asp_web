@@ -12,6 +12,7 @@
         </tr>
     </thead>
     <tbody>
+
 @foreach (var item in Model)
 {
                 <tr>
@@ -25,12 +26,20 @@
     </tbody>
 </table>
 -->
+<header class="text-left mb-4">
+    <img src="/img/phone.png" alt="Logo" class="img-fluid" style="max-width: 50px;">
+    <h3>Giới thiệu Sản Phẩm </h3>
+   
+
+</header>
 <div class="row">
     @foreach (var item in Model)
     {
         <div class="col-3">
             <div class="card" style="width: 18rem;">
-                <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name">
+                <a asp-action="Details" asp-route-id="@item.Id">
+                    <img src="@item.ImageUrl" alt="Product Image" class="product-image" width="50%">
+                </a>
                 <div class="card-body">
                     <h5 class="card-title">@item.Name</h5>
                     <h6 class="card-title">@item.price</h6>
@@ -48,3 +57,26 @@
         </div>
     }
 </div>
+<footer class="bg-light text-center mt-5 py-4">
+    <div class="container">
+        <h2>Liên Hệ Chúng Tôi</h2>
+        <p>Email: contact@letan.com</p>
+        <p>Điện Thoại: 0123456789</p>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Giới Thiệu</h4>
+                <p>Thông tin giới thiệu về công ty và sản phẩm.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Dịch Vụ Khách Hàng</h4>
+                <p>Thông tin về dịch vụ khách hàng.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Chính Sách Bảo Mật</h4>
+                <p>Thông tin về chính sách bảo mật của chúng tôi.</p>
+            </div>
+        </div>
+        <p>&copy; 2024 Công ty của bạn. Bản quyền thuộc về bạn.</p>
+    </div>
+</footer>

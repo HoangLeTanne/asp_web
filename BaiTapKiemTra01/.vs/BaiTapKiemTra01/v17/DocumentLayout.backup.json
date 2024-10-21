@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapKiemTra01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F61CD0AD-EBCC-4F8D-923C-3CBF72F9FB2E}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitapkiemtra01\\baitapkiemtra01\\models\\taikhoanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61CD0AD-EBCC-4F8D-923C-3CBF72F9FB2E}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\models\\taikhoanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F61CD0AD-EBCC-4F8D-923C-3CBF72F9FB2E}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitapkiemtra01\\baitapkiemtra01\\models\\sanphamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F61CD0AD-EBCC-4F8D-923C-3CBF72F9FB2E}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\models\\sanphamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61CD0AD-EBCC-4F8D-923C-3CBF72F9FB2E}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitapkiemtra01\\baitapkiemtra01\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61CD0AD-EBCC-4F8D-923C-3CBF72F9FB2E}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61CD0AD-EBCC-4F8D-923C-3CBF72F9FB2E}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitapkiemtra01\\baitapkiemtra01\\models\\taikhoanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61CD0AD-EBCC-4F8D-923C-3CBF72F9FB2E}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\models\\taikhoanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F61CD0AD-EBCC-4F8D-923C-3CBF72F9FB2E}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|d:\\l\u1EADp tr\u00ECnh web\\github\\asp_web\\baitapkiemtra01\\baitapkiemtra01\\views\\taikhoan\\baitap2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "TaiKhoanController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\Controllers\\TaiKhoanController.cs",
+              "RelativeDocumentMoniker": "BaiTapKiemTra01\\Controllers\\TaiKhoanController.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\Controllers\\TaiKhoanController.cs",
+              "RelativeToolTip": "BaiTapKiemTra01\\Controllers\\TaiKhoanController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T06:43:43.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BaiTap2.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\TaiKhoan\\BaiTap2.cshtml",
               "RelativeDocumentMoniker": "BaiTapKiemTra01\\Views\\TaiKhoan\\BaiTap2.cshtml",
@@ -46,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SanPhamViewModel.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\Models\\SanPhamViewModel.cs",
               "RelativeDocumentMoniker": "BaiTapKiemTra01\\Models\\SanPhamViewModel.cs",
@@ -54,11 +71,12 @@
               "RelativeToolTip": "BaiTapKiemTra01\\Models\\SanPhamViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T07:44:00.558Z"
+              "WhenOpened": "2024-09-10T07:44:00.558Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TaiKhoanViewModel.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh Web\\Github\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\Models\\TaiKhoanViewModel.cs",
               "RelativeDocumentMoniker": "BaiTapKiemTra01\\Models\\TaiKhoanViewModel.cs",

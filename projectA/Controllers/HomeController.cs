@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using projectA.Data;
 using projectA.Models;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace projectA.Controllers
 {
@@ -36,16 +38,38 @@ namespace projectA.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-		[HttpGet]
-		public IActionResult Details(int id)
-		{
-			SanPham sanpham = new SanPham();
-			
-			sanpham = _db.SanPham.Include(sp=>sp.TheLoai).FirstOrDefault(sp => sp.Id == id);
+        [HttpGet]
+        public IActionResult Details(int sanphamId)
+        {
+            GioHang giohang = new GioHang()
+            {
+                SanPhamId = sanphamId,
+                SanPham = _db.SanPham.Include(sp => sp.TheLoai)
+                .FirstOrDefault(sp => sp.Id == sanphamId),
+                Quantity = 1
+            };
+            return View(giohang);
+        }
+        [HttpPost]
+        [Authorize]
+        public IActionResult Details(GioHang giohang)
+        {
+            //l?y thông tin tài kho?n
+            var identity = (ClaimsIdentity)User.Identity;
+            var claim = identity.FindFirst(ClaimTypes.NameIdentifier);
+            giohang.ApplicationUserId = claim.Value;
 
-			return View(sanpham);
-			
+            //Thêm s?n ph?m vào gi? hàng
+            _db.GioHang.Add(giohang);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
 
-		}
-	}
+        [HttpGet]
+        public IActionResult FilterByTheLoai(int id)
+        {
+            IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai").Where(sp => sp.TheLoai.Id == id).ToList();
+            return View("Index", sanpham);
+        }
+    }
 }

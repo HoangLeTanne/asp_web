@@ -1,46 +1,86 @@
-﻿<!DOCTYPE html>
+﻿﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - projectA</title>
+    <title>@ViewData["Title"] - Project</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/projectA.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Project.styles.css" asp-append-version="true" />
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">projectA</a>
+                <img src="/img/phone.png" alt="Logo" class="img-fluid" style="max-width: 75px;">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-parent" href="/"><b>Trang chủ</b></a>
                         </li>
+                        @await Component.InvokeAsync("TheLoai")
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link bg-transparent dropdown-toggle" href="/collection/all" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <b> Sản phẩm</b>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/collection/all"><b>Xem tất cả</b></a></li>
+                                <li><a class="dropdown-item" href="/collection/tai-nghe"><b>Tai nghe</b></a></li>
+                                <li><a class="dropdown-item" href="/collection/may-tinh"><b>Máy tính</b></a></li>
+                                <li><a class="dropdown-item" href="/collection/ban-phim"><b>Bàn phím </b></a></li>
+                                <li><a class="dropdown-item" href="/collection/chuot"><b>Chuột gaming</b></a></li>
+                                <li><a class="dropdown-item" href="/collection/card-do-hoa"><b>Card đồ họa</b></a></li>
+                            </ul>
+                        </li>
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-parent" href="/pages/about-us"><b>Giới thiệu</b></a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-parent" href="/pages/contact"><b>Liên hệ</b></a>
+                        </li>
+
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
     </header>
+
     <div class="container">
-        
+
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
+    <footer class="bg-light text-center mt-5 py-4">
         <div class="container">
-            &copy; 2024 - projectA - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <h2>Liên Hệ Chúng Tôi</h2>
+            <p>Email: contact@letan.com</p>
+            <p>Điện Thoại: 0123456789</p>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Giới Thiệu</h4>
+                    <p>Thông tin giới thiệu về sản phẩm.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Dịch Vụ Khách Hàng</h4>
+                    <p>Thông tin về dịch vụ khách hàng.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Chính Sách Bảo Mật</h4>
+                    <p>Thông tin về chính sách bảo mật của chúng tôi.</p>
+                </div>
+            </div>
+            <p>&copy; 2024  Bản quyền thuộc về bạn.</p>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

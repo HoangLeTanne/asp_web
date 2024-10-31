@@ -13,7 +13,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <img src="/img/phone.png" alt="Logo" class="img-fluid" style="max-width: 75px;">
+                <img src="/img/logo.png" class="img-fluid" style="max-width: 75px;">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,11 +40,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-parent" href="/pages/about-us"><b>Giới thiệu</b></a>
+                            <a class="nav-link text-parent" asp-controller="Home" asp-action="GioiThieu"><b>Giới thiệu</b></a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-parent" href="/pages/contact"><b>Liên hệ</b></a>
+                            <a class="nav-link text-parent" asp-controller="Home" asp-action="LienHe"><b>Liên hệ</b></a>
                         </li>
 
                     </ul>
@@ -53,6 +53,38 @@
             </div>
         </nav>
     </header>
+    <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://taocuoi.vn/wp-content/uploads/2024/05/banner-home-3-m.webp" class="d-block w-100" alt="Banner 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.tgdd.vn/hoi-dap/1355217/banner-tgdd-800x300.jpg" class="d-block w-100" alt="Banner 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://baotinmobile.vn/uploads/2023/03/sl-iphone-14-promax.jpg.webp" class="d-block w-100" alt="Banner 3">
+            </div>
+        </div>
+        <!-- Carousel controls (next and previous) -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <style>
+        #bannerCarousel .carousel-inner img {
+            height: 400px; /* Set a fixed height for the banners */
+            width: 100%; /* Ensures the image covers the full width */
+            object-fit: contain; /* Ensures the entire image fits within the given dimensions */
+            border-radius: 10px; /* Optional: Adds rounded corners */
+        }
+    </style>
+
 
     <div class="container">
 
@@ -60,6 +92,40 @@
             @RenderBody()
         </main>
     </div>
+    <style>
+        /* Footer container background */
+        footer.bg-light {
+            background-color: #f9f9f9;
+        }
+
+        /* Pastel color styling */
+        footer h2, footer h4 {
+            font-weight: bold;
+        }
+
+        /* Pastel color for each section */
+        footer h2 {
+            color: #ffb3ba; /* Light pastel pink for "Liên Hệ Chúng Tôi" */
+        }
+
+        footer .col-md-4:nth-child(1) h4 {
+            color: #ffdfba; /* Light pastel peach for "Giới Thiệu" */
+        }
+
+        footer .col-md-4:nth-child(2) h4 {
+            color: #baffc9; /* Light pastel green for "Dịch Vụ Khách Hàng" */
+        }
+
+        footer .col-md-4:nth-child(3) h4 {
+            color: #bae1ff; /* Light pastel blue for "Chính Sách Bảo Mật" */
+        }
+
+        /* General footer text */
+        footer p {
+            color: #555; /* Slightly darker color for readability */
+        }
+    </style>
+
     <footer class="bg-light text-center mt-5 py-4">
         <div class="container">
             <h2>Liên Hệ Chúng Tôi</h2>
@@ -80,9 +146,10 @@
                     <p>Thông tin về chính sách bảo mật của chúng tôi.</p>
                 </div>
             </div>
-            <p>&copy; 2024  Bản quyền thuộc về bạn.</p>
+            <p>&copy; 2024 Bản quyền thuộc letan.</p>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

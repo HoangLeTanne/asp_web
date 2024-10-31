@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w/vw+SFqCVMqSeUQykvvJMmpv0lYzVErCYBdHksn90c=",
+  "Hash": "Y8Qac/zRgXQsaI+t+mRHAzCoXAYq6rost+jf8/7qAr0=",
   "Source": "projectA",
   "BasePath": "_content/projectA",
   "Mode": "Default",
@@ -1233,12 +1233,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Lập trình Web\\Github\\asp_web\\projectA\\wwwroot\\img\\phone.png",
+      "Identity": "D:\\Lập trình Web\\Github\\asp_web\\projectA\\wwwroot\\img\\logo.png",
       "SourceId": "projectA",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Lập trình Web\\Github\\asp_web\\projectA\\wwwroot\\",
       "BasePath": "_content/projectA",
-      "RelativePath": "img/phone.png",
+      "RelativePath": "img/logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1249,7 +1249,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\phone.png"
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
       "Identity": "D:\\Lập trình Web\\Github\\asp_web\\projectA\\wwwroot\\js\\site.js",

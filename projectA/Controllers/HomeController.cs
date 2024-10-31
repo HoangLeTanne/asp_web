@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -20,7 +20,15 @@ namespace projectA.Controllers
             _logger = logger;
             _db = db;
         }
+        public IActionResult GioiThieu()
+        {
+            return View();
+        }
 
+        public IActionResult LienHe()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai").ToList();
@@ -54,13 +62,25 @@ namespace projectA.Controllers
         [Authorize]
         public IActionResult Details(GioHang giohang)
         {
-            //l?y th�ng tin t�i kho?n
+            // Lay thong tin tai khoan
             var identity = (ClaimsIdentity)User.Identity;
             var claim = identity.FindFirst(ClaimTypes.NameIdentifier);
             giohang.ApplicationUserId = claim.Value;
 
-            //Th�m s?n ph?m v�o gi? h�ng
-            _db.GioHang.Add(giohang);
+
+            // Ki?m tra s?n ph?m ?ã có trong c? s? d? li?u hay ch?a?
+            var giohangdb = _db.GioHang.FirstOrDefault(gh => gh.SanPhamId == giohang.SanPhamId
+       && gh.ApplicationUserId == giohang.ApplicationUserId);
+
+            if (giohangdb == null)
+            {
+                _db.GioHang.Add(giohang); // Them san pham vao gio hang
+            }
+            else
+            {
+                giohangdb.Quantity += giohang.Quantity;
+            }
+            // Them san pham vao gio hang
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
@@ -71,5 +91,46 @@ namespace projectA.Controllers
             IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai").Where(sp => sp.TheLoai.Id == id).ToList();
             return View("Index", sanpham);
         }
+        [HttpPost]
+        [Authorize]
+        public IActionResult AddToCart(int sanphamId)
+        {
+            // Lấy thông tin người dùng
+            var identity = (ClaimsIdentity)User.Identity;
+            var claim = identity.FindFirst(ClaimTypes.NameIdentifier);
+
+            // Tạo đối tượng GioHang
+            GioHang giohang = new GioHang
+            {
+                SanPhamId = sanphamId,
+                ApplicationUserId = claim.Value,
+                Quantity = 1 // Giả sử mỗi lần thêm là 1 sản phẩm
+            };
+
+            // Kiểm tra sản phẩm đã có trong giỏ hàng chưa
+            var giohangdb = _db.GioHang.FirstOrDefault(gh => gh.SanPhamId == sanphamId && gh.ApplicationUserId == giohang.ApplicationUserId);
+
+            if (giohangdb == null)
+            {
+                _db.GioHang.Add(giohang); // Thêm sản phẩm vào giỏ hàng
+                TempData["SuccessMessage"] = "Sản phẩm đã được thêm vào giỏ hàng!";
+            }
+            else
+            {
+                giohangdb.Quantity += giohang.Quantity; // Tăng số lượng nếu sản phẩm đã có
+                TempData["SuccessMessage"] = "Sản phẩm đã được cập nhật trong giỏ hàng!";
+            }
+
+            // Lưu thay đổi vào cơ sở dữ liệu
+            _db.SaveChanges();
+
+            // Quay lại trang trước đó
+            return RedirectToAction("Index");
+        }
+
+
+
+
+
     }
 }

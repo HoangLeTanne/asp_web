@@ -1,4 +1,4 @@
-
+﻿
 html {
   font-size: 14px;
 }
@@ -20,4 +20,12 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: lightcyan;
+}
+
+#bannerCarousel .carousel-inner img {
+    height: 400px; /* Set a fixed height for the banners */
+    width: 100%; /* Ensures the image covers the full width */
+    object-fit: contain; /* Ensures the entire image fits within the given dimensions */
+    border-radius: 10px; /* Optional: Adds rounded corners */
 }

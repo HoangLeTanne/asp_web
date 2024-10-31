@@ -1,4 +1,4 @@
-﻿@model IEnumerable<GioHang>
+﻿@model GioHangViewModel
 <style>
       input[type="text"] 
       {
@@ -24,27 +24,32 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <!-- Sản phẩm 1 -->
-                        @foreach (var item in Model)
+                        
+                        @foreach (var item in Model.DsGioHang)
                         {
+                            
                             <tr data-price="@item.SanPham.price">
                                 <td>@item.SanPham.Id</td>
                                 <td>@item.SanPham.Name</td>
                                 <td><img src="@item.SanPham.ImageUrl" alt="Sản phẩm A" class="img-fluid" width="100"></td>
-                                <td>@item.SanPham.price</td>
+                                <td>@(string.Format("{0:N0}",item.SanPham.price))đ</td>
                                 <td>
                                     <div class="d-flex justify-content-center align-items-center">
-                                        <button class="btn btn-sm btn-outline-secondary minus">-</button>
+                                        <a asp-action="Giam" asp-route-giohangId="@item.Id" class="btn btn-sm btn-outline-secondary minus">-</a>
                                         <input value="@item.Quantity" type="text" class="form-control text-center quantity mx-2"  readonly>
-                                        <button class="btn btn-sm btn-outline-secondary plus">+</button>
+                                        <a asp-action="Tang" asp-route-giohangId="@item.Id" class="btn btn-sm btn-outline-secondary plus">+</a>
                                     </div>
                                 </td>
-                                <td class="item-total">@(item.SanPham.price*item.Quantity)</td>
+                                <td class="item-total">@(string.Format("{0:N0}", item.SanPham.price * item.Quantity))đ</td>
                                 <td>
-                                    <button class="btn btn-sm btn-danger remove">Xóa</button>
+                                    <a asp-action="Xoa"
+                                       asp-route-giohangId="@item.Id"
+                                       class="btn btn-sm btn-danger remove">
+                                        Xóa
+                                    </a>
                                 </td>
                             </tr>
-                            <!-- Sản phẩm 2 -->
+                           
                         } 
                     </tbody>
                     </table>
@@ -58,7 +63,7 @@
                         <h5 class="card-title">Thông tin thanh toán</h5>
 
                         <!-- Tổng cộng -->
-                        <p><strong>Tổng cộng:</strong> <span id="cart-total">1,100,000đ</span></p>
+                        <p><strong>Tổng cộng:</strong> <span id="cart-total">@(string.Format("{0:N0}", Model.HoaDon.Total)) vnđ</span></p>
 
                         <!-- Phương thức thanh toán -->
                         <h6>Phương thức thanh toán</h6>
@@ -88,7 +93,7 @@
                         </div>
 
                         <!-- Nút đặt hàng -->
-                        <button class="btn btn-success mt-3 w-100">Đặt hàng</button>
+                        <a class="btn btn-success mt-3 w-100" asp-action="ThanhToan">Thanh toán</a>
                     </div>
                 </div>
             </div>
@@ -96,35 +101,15 @@
     </div>
 
     <script>
-        // Tăng số lượng
-        document.querySelectorAll('.plus').forEach(button => {
-            button.addEventListener('click', function () {
-                let quantityInput = this.closest('td').querySelector('.quantity');
-                let currentQuantity = parseInt(quantityInput.value);
-                quantityInput.value = currentQuantity + 1;
-                updateRow(this);
-            });
-        });
-
-        // Giảm số lượng
-        document.querySelectorAll('.minus').forEach(button => {
-            button.addEventListener('click', function () {
-                let quantityInput = this.closest('td').querySelector('.quantity');
-                let currentQuantity = parseInt(quantityInput.value);
-                if (currentQuantity > 1) {
-                    quantityInput.value = currentQuantity - 1;
-                    updateRow(this);
-                }
-            });
-        });
+       
 
         // Xóa sản phẩm
-        document.querySelectorAll('.remove').forEach(button => {
-            button.addEventListener('click', function () {
-                this.closest('tr').remove();
-                updateTotal();
-            });
-        });
+        //document.querySelectorAll('.remove').forEach(button => {
+        //    button.addEventListener('click', function () {
+        //        this.closest('tr').remove();
+        //         updateTotal();
+        //     });
+        //});
 
         // Cập nhật thành tiền của từng hàng và tổng cộng
         function updateRow(button) {
